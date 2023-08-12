@@ -1,0 +1,345 @@
+ /* POPPINS FONT FAMILY */
+@import url("https://fonts.googleapis.com/css2?family=Poppins&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Righteous&display=swap");
+
+* {
+  font-family: "Poppins", sans-serif;
+  margin: 0;
+}
+body{background-color: #f8f8fa;}
+
+header{
+background-color: #4718fe;
+height: 450px;
+}
+
+nav{
+color: white;
+float: right;
+margin-top: 30px;
+margin-right: 50px;
+}
+
+.nav-item{
+  padding-right: 15px;
+  cursor: pointer;
+}
+
+.nav-item-active{
+    background-color: white;
+    color: #4718fe;
+    padding: 5px;
+    border-radius: 4px;
+    margin-right: 10px;
+    cursor: pointer;
+}
+
+.logo{
+
+   margin-top: 30px;
+   margin-left: 50px;
+}
+
+.header-text{
+  margin-left: 50px;
+  margin-top: 60px;
+  color: white;
+  float: left;
+  line-height: 2;
+  font-size: 23px;
+  font-weight: lighter;
+  
+}
+
+.header-image{
+  
+  float: right;
+  box-shadow: rgba(17, 17, 26, 0.1) 0px 1px 0px;
+}
+
+.companies{
+ margin-left: 50px;
+ margin-top: 30px;
+
+}
+
+.company-items{
+  text-decoration: none;
+  color: black;
+  padding-right: 30px;
+  font-size: 20px;
+  font-weight: bold;
+
+}
+
+.company-items:hover{
+  color: #4718fe;
+}
+
+.api-heading{
+
+ margin-left: 50px;
+ margin-top: 65px;
+ margin-bottom: 50px;
+ font-size: 27px;
+ font-weight: bolder;
+}
+
+.cards{
+ display: flex;
+ margin-left: 50px;
+ gap:15px;
+ 
+ 
+}
+.card{
+ width: 15%;
+ background-color:transparent;
+ padding: 10px;
+ box-shadow: rgba(0, 0, 0, 0.09) 0px 2px 1px, rgba(0, 0, 0, 0.09) 0px 4px 2px, rgba(0, 0, 0, 0.09) 0px 8px 4px, rgba(0, 0, 0, 0.09) 0px 16px 8px, rgba(0, 0, 0, 0.09) 0px 32px 16px;
+}
+.card-active{
+  background-color: #ffffff;
+  padding: 10px;
+  box-shadow: rgba(0, 0, 0, 0.09) 0px 2px 1px, rgba(0, 0, 0, 0.09) 0px 4px 2px, rgba(0, 0, 0, 0.09) 0px 8px 4px, rgba(0, 0, 0, 0.09) 0px 16px 8px, rgba(0, 0, 0, 0.09) 0px 32px 16px;
+  border-radius: 8px;
+}
+
+.card-logo{
+ margin: 10px;
+}
+.card-head{
+  font-size: 15px;
+  margin-left: 10px;
+  
+}
+.card-body{
+  margin-left: 10px;
+  padding-bottom: 20px;
+}
+.card-head-active{
+  font-size: 15px;
+  margin-left: 10px;
+  color:#5a31fc;
+  
+  
+}
+.next{
+ height: 60px;
+ width: 60px;
+ background-color: #5a31fc;
+ text-align: center;
+ border-radius: 100%;
+ color: white;
+
+ font-size: 40px;
+ margin-left:20px ;
+ margin-top: 100px;
+}
+
+.blog-heading{
+  margin-left: 50px;
+  margin-top: 65px;
+  margin-bottom: 50px;
+  font-size: 20px;
+  font-weight: bolder;
+}
+
+.blog-cards{
+  margin-left: 50px;
+  display: flex;
+  gap: 20px;
+}
+.blog-card{
+ position: relative;
+ height: 287px;
+ width: 50%;
+ 
+ 
+ box-shadow: rgba(0, 0, 0, 0.15) 2.4px 2.4px 3.2px;
+}
+.blog-image{
+  margin-right: 40px;
+ float: left;
+
+}
+.blog-content h6{
+  color: #5a31fc;
+  padding-top: 25px;
+  padding-bottom: 15px;
+}
+.blog-bottom{
+  position: absolute;
+  left: 288px;
+  bottom: -22px;
+  
+  border-radius: 50%;
+  
+}
+
+div .blog-author{
+ margin-top: 45px;
+ margin-left: 70px;
+  
+}
+
+.faq-section{
+  background-color:#e9edff;
+  margin-top: 80px;
+  height: 324px;
+  padding-left: 50px;
+}
+
+.faq-content{
+  float: left;
+}
+
+.faq-content h2{
+  font-size: 35px;
+  padding-top: 40px;
+  padding-bottom: 15px;
+}
+
+
+
+.faq-content h4:nth-child(2n-1){
+  padding-top: 10px;
+  padding-bottom: 10px;
+  font-size: 20px;
+}
+
+.faq-image img{
+  margin-left: 116px;
+  
+}
+
+.faq-content button{
+  background-color: #5a31fc;
+  color: #ffffff;
+  border: none;
+  border-radius: 4px;
+  padding: 5px;
+  margin-top: 5px;
+}
+
+.download-section{
+  background-color: #ffffff;
+  height: 300px;
+  position: relative;
+}
+
+.download-content{
+  float: left;
+  margin-left: 50px;
+  margin-top: 120px;
+}
+
+
+.download-content h1 span{
+  font-weight: normal;
+}
+
+.download-email{
+  float: right;
+  margin-top: 120px;
+  margin-right: 110px;
+}
+
+
+.download-email form input{
+  height: 50px;
+  width: 550px;
+  border: none;
+  background-color: #e9edff;
+  border-radius: 45px;
+  padding-left: 30px; 
+  
+}
+
+.download-email form button{
+  height: 40px;
+  width: 160px;
+  border: none;
+  background-color: #5a31fc;
+  color: white;
+  border-radius: 45px;
+  padding-left: 30px; 
+  position: absolute;
+  right: 116px;
+  bottom: 135px;
+}
+
+.download-email form input::placeholder{
+  color:black;
+  
+}
+
+
+/* footer section */
+.footer-section{
+  background-color: #4718fe;
+  height: 200px;
+  
+  }
+  .footer-left{
+    float: left;
+    margin-top: 50px;
+  }
+  
+  .footer-logo{
+    margin-left: 50px;
+  }
+
+  .list{
+    margin-left: 50px;
+    margin-top: 25px;
+    padding: 0;
+  }
+  
+  .list li{
+    list-style-type:none;
+    display: inline-block;
+    padding-right: 15px;
+    color: #e9edff;
+    font-size: 10px;
+    font-weight: lighter;
+   
+  }
+
+  
+  
+  .footer-right{
+    float: right;
+    margin-top: 50px;
+    margin-right: 50px;
+  }
+
+  .footer-right .footer-right{
+    margin-top: 0;
+    margin-bottom: 25px;
+  }
+
+  .footer-logos{
+    margin-right: 10px;
+  }
+
+  .logos-list{
+    padding: 0;
+    
+
+    
+  }
+
+  .list-items{
+    list-style-type:none;
+    display: inline-block;
+    padding-right: 15px;
+    color: #e9edff;
+    font-size: 10px;
+    font-weight: lighter;
+   
+  }
+
+
+
+
